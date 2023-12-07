@@ -1,8 +1,7 @@
 This branch contains the login and sign up code for Plypicker Data Panel.
 
-#########################################################################
-This below written contains the brief abput the code in each and every file
-#########################################################################
+###This below written contains the brief abput the code in each and every file
+
 
 Starting the Backend:-
 npm init -y
