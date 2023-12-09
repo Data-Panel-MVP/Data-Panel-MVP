@@ -1,4 +1,4 @@
-//added server.js in package.json so use npm run serve
+//added server.js in package.json so use npm run dev
 
 
 
