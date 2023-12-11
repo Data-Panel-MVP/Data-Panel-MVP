@@ -63,8 +63,10 @@ const designSchema = new mongoose.Schema({//it consist of all the feilds that in
 
 // Main schema for 'vars'
 const varsSchema = new mongoose.Schema({
-    design: [designSchema], // Array of designs
+    design_Type_1: [designSchema],//array of designs for Type 1 designs
+    design_Type_2: [designSchema], // Array of designs for type 2 designs
 }, { _id: false });
+
 
 
 const productSchema = mongoose.Schema(//basic product model consist of all parameter including vars
