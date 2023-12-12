@@ -47,6 +47,7 @@ const designSchema = new mongoose.Schema({//it consist of all the feilds that in
         required: [true,],//validation method
     },
 
+    
     discounted_price: {
         type: Number,
         required: [true,],//validation method
