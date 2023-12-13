@@ -1,6 +1,6 @@
 //added server.js in package.json so use npm run dev
 
-
+require('dotenv').config({path:"config.env"})
 
 const express = require('express')
 const mongoose = require('mongoose')//conected to mongodb
@@ -85,7 +85,7 @@ app.delete('/products/:id', async(req, res) =>{//here route is DELETE make sure 
 })
 
 mongoose.set("strictQuery", false)
-mongoose.connect('mongodb+srv://AYUSH:9835456039@cluster0.hofxigh.mongodb.net/?retryWrites=true&w=majority')//connected to atlas
+mongoose.connect(process.env.MONGODB_URI)//connected to atlas
 .then(() => {
     console.log('connected to MongoDB')//when app is conncted to mongodb it will display this message 
     app.listen(3000, ()=> {

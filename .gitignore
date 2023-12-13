@@ -1,2 +1,4 @@
 node_modules
 PRODUCT_MODELS.js
+
+config.env
