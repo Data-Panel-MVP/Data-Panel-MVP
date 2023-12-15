@@ -68,7 +68,7 @@ app.put('/products/:id', async(req, res) => {//here route is PUT make sure to us
     }
 })
 
-// // delete a product
+// delete a product
 
 app.delete('/products/:id', async(req, res) =>{//here route is DELETE make sure to use DELETE in postman to getting products
     try {
