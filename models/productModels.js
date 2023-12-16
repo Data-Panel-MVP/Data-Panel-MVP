@@ -151,7 +151,7 @@ const productSchema = mongoose.Schema(//basic product model consist of all param
             type: Number,
             required: [true,],//validation method
         },
-
+ 
         discounted_price: {
             type: Number,
             required: [true,],//validation method
